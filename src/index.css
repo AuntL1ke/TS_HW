@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +12,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Login, .Registration {
+  width: 60%;
+  margin: auto;
+}
+
+.Login form, .Registration form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.divider {
+  display: inline;
+}
+
+
+.headermenu
+{
+ 
+  height:10vh;
+
+}
+
+/* .main1
+{
+height:70vh;
+
+
+} */
